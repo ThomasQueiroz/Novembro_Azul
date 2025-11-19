@@ -3,23 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Novembro Azul - Conscientização e Prevenção</title>
+    <title data-i18n="title_home">Novembro Azul - Conscientização e Prevenção</title>
     <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
 </head>
 <body>
     <!-- Navigation -->
     <nav class="navbar">
         <div class="container">
             <div class="nav-content">
-                <a href="index.html" class="logo">
+                <a href="index.html" class="logo" data-i18n="brand">
                     <span class="heart">💙</span>
                     Novembro Azul
                 </a>
                 <ul class="nav-menu">
-                    <li><a href="index.html" class="active">Início</a></li>
-                    <li><a href="sobre.html">Sobre</a></li>
-                    <li><a href="prevencao.html">Prevenção</a></li>
+                    <li><a href="index.html" class="active" data-i18n="nav_home">Início</a></li>
+                    <li><a href="sobre.html" data-i18n="nav_about">Sobre</a></li>
+                    <li><a href="prevencao.html" data-i18n="nav_prevention">Prevenção</a></li>
                 </ul>
+
+                <!-- Language selector -->
+                <div class="lang-switcher">
+                    <label for="langSelect" class="visually-hidden">Idioma</label>
+                    <select id="langSelect">
+                        <option value="pt">Português</option>
+                        <option value="en">English</option>
+                        <option value="ar">العربية</option>
+                        <option value="fr">Français</option>
+                        <option value="zh">中文</option>
+                        <option value="ru">Русский</option>
+                    </select>
+                </div>
             </div>
         </div>
     </nav>
@@ -29,11 +43,11 @@
         <div class="container">
             <div class="hero-content">
                 <div class="hero-text">
-                    <h1>Novembro <span class="blue">Azul</span></h1>
-                    <p class="hero-description">Um movimento mundial dedicado à conscientização sobre a saúde do homem e a prevenção do câncer de próstata. Cuidar de si mesmo é um ato de coragem.</p>
+                    <h1 data-i18n-html="hero_title">Novembro <span class="blue">Azul</span></h1>
+                    <p class="hero-description" data-i18n="hero_desc">Um movimento mundial dedicado à conscientização sobre a saúde do homem e a prevenção do câncer de próstata. Cuidar de si mesmo é um ato de coragem.</p>
                     <div class="hero-buttons">
-                        <a href="prevencao.html" class="btn btn-primary">Saiba Mais</a>
-                        <a href="sobre.html" class="btn btn-secondary">Conheça a Campanha</a>
+                        <a href="prevencao.html" class="btn btn-primary" data-i18n="btn_learn_more">Saiba Mais</a>
+                        <a href="sobre.html" class="btn btn-secondary" data-i18n="btn_know_campaign">Conheça a Campanha</a>
                     </div>
                 </div>
                 <div class="hero-image">
@@ -48,16 +62,16 @@
         <div class="container">
             <div class="stats-grid">
                 <div class="stat-item">
-                    <div class="stat-number">1 em 9</div>
-                    <p>Homens desenvolvem câncer de próstata</p>
+                    <div class="stat-number" data-i18n="stat_1_value">1 em 9</div>
+                    <p data-i18n="stat_1_label">Homens desenvolvem câncer de próstata</p>
                 </div>
                 <div class="stat-item">
-                    <div class="stat-number">95%</div>
-                    <p>Taxa de sobrevivência com diagnóstico precoce</p>
+                    <div class="stat-number" data-i18n="stat_2_value">95%</div>
+                    <p data-i18n="stat_2_label">Taxa de sobrevivência com diagnóstico precoce</p>
                 </div>
                 <div class="stat-item">
-                    <div class="stat-number">50+</div>
-                    <p>Idade recomendada para começar a se prevenir</p>
+                    <div class="stat-number" data-i18n="stat_3_value">50+</div>
+                    <p data-i18n="stat_3_label">Idade recomendada para começar a se prevenir</p>
                 </div>
             </div>
         </div>
@@ -66,27 +80,27 @@
     <!-- Features Section -->
     <section class="features">
         <div class="container">
-            <h2>Por que Novembro Azul é Importante?</h2>
+            <h2 data-i18n="features_title">Por que Novembro Azul é Importante?</h2>
             <div class="features-grid">
                 <div class="feature-card">
                     <div class="feature-icon">🛡️</div>
-                    <h3>Prevenção</h3>
-                    <p>Conhecer os fatores de risco e adotar hábitos saudáveis é essencial para prevenir o câncer de próstata.</p>
+                    <h3 data-i18n="feature_prev_title">Prevenção</h3>
+                    <p data-i18n="feature_prev_desc">Conhecer os fatores de risco e adotar hábitos saudáveis é essencial para prevenir o câncer de próstata.</p>
                 </div>
                 <div class="feature-card">
                     <div class="feature-icon">💙</div>
-                    <h3>Diagnóstico Precoce</h3>
-                    <p>Detectar a doença nos estágios iniciais aumenta significativamente as chances de cura e tratamento.</p>
+                    <h3 data-i18n="feature_dx_title">Diagnóstico Precoce</h3>
+                    <p data-i18n="feature_dx_desc">Detectar a doença nos estágios iniciais aumenta significativamente as chances de cura e tratamento.</p>
                 </div>
                 <div class="feature-card">
                     <div class="feature-icon">👥</div>
-                    <h3>Conscientização</h3>
-                    <p>Promover o diálogo sobre saúde masculina e quebrar tabus é fundamental para salvar vidas.</p>
+                    <h3 data-i18n="feature_awareness_title">Conscientização</h3>
+                    <p data-i18n="feature_awareness_desc">Promover o diálogo sobre saúde masculina e quebrar tabus é fundamental para salvar vidas.</p>
                 </div>
                 <div class="feature-card">
                     <div class="feature-icon">✓</div>
-                    <h3>Qualidade de Vida</h3>
-                    <p>Cuidar da saúde integral do homem melhora a qualidade de vida em todos os aspectos.</p>
+                    <h3 data-i18n="feature_qol_title">Qualidade de Vida</h3>
+                    <p data-i18n="feature_qol_desc">Cuidar da saúde integral do homem melhora a qualidade de vida em todos os aspectos.</p>
                 </div>
             </div>
         </div>
@@ -95,9 +109,9 @@
     <!-- CTA Section -->
     <section class="cta">
         <div class="container">
-            <h2>Cuide-se. Previna-se. Viva Melhor.</h2>
-            <p>Não espere sintomas aparecerem. Consulte um médico regularmente e conheça os fatores de risco que podem afetar sua saúde.</p>
-            <a href="prevencao.html" class="btn btn-white">Dicas de Prevenção</a>
+            <h2 data-i18n="cta_title">Cuide-se. Previna-se. Viva Melhor.</h2>
+            <p data-i18n="cta_desc">Não espere sintomas aparecerem. Consulte um médico regularmente e conheça os fatores de risco que podem afetar sua saúde.</p>
+            <a href="prevencao.html" class="btn btn-white" data-i18n="cta_btn">Dicas de Prevenção</a>
         </div>
     </section>
 
@@ -106,19 +120,19 @@
         <div class="container">
             <div class="footer-grid">
                 <div class="footer-col">
-                    <h4>💙 Novembro Azul</h4>
-                    <p>Conscientização sobre a saúde do homem e prevenção do câncer de próstata.</p>
+                    <h4>💙 <span data-i18n="footer_brand">Novembro Azul</span></h4>
+                    <p data-i18n="footer_desc">Conscientização sobre a saúde do homem e prevenção do câncer de próstata.</p>
                 </div>
                 <div class="footer-col">
-                    <h4>Navegação</h4>
+                    <h4 data-i18n="footer_nav">Navegação</h4>
                     <ul>
-                        <li><a href="index.html">Início</a></li>
-                        <li><a href="sobre.html">Sobre</a></li>
-                        <li><a href="prevencao.html">Prevenção</a></li>
+                        <li><a href="index.html" data-i18n="nav_home">Início</a></li>
+                        <li><a href="sobre.html" data-i18n="nav_about">Sobre</a></li>
+                        <li><a href="prevencao.html" data-i18n="nav_prevention">Prevenção</a></li>
                     </ul>
                 </div>
                 <div class="footer-col">
-                    <h4>Recursos</h4>
+                    <h4 data-i18n="footer_resources">Recursos</h4>
                     <ul>
                         <li><a href="https://www.gov.br/saude" target="_blank">Ministério da Saúde</a></li>
                         <li><a href="https://www.inca.gov.br" target="_blank">INCA</a></li>
@@ -127,7 +141,7 @@
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2025 Novembro Azul - Conscientização sobre Saúde Masculina. Todos os direitos reservados.</p>
+                <p>&copy; 2025 <span data-i18n="footer_brand">Novembro Azul</span> - <span data-i18n="footer_bottom">Conscientização sobre Saúde Masculina. Todos os direitos reservados.</span></p>
             </div>
         </div>
     </footer>

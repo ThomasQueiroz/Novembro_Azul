@@ -3,23 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Prevenção - Novembro Azul</title>
+    <title data-i18n="title_prev">Prevenção - Novembro Azul</title>
     <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
 </head>
 <body>
     <!-- Navigation -->
     <nav class="navbar">
         <div class="container">
             <div class="nav-content">
-                <a href="index.html" class="logo">
+                <a href="index.html" class="logo" data-i18n="brand">
                     <span class="heart">💙</span>
                     Novembro Azul
                 </a>
                 <ul class="nav-menu">
-                    <li><a href="index.html">Início</a></li>
-                    <li><a href="sobre.html">Sobre</a></li>
-                    <li><a href="prevencao.html" class="active">Prevenção</a></li>
+                    <li><a href="index.html" data-i18n="nav_home">Início</a></li>
+                    <li><a href="sobre.html" data-i18n="nav_about">Sobre</a></li>
+                    <li><a href="prevencao.html" class="active" data-i18n="nav_prevention">Prevenção</a></li>
                 </ul>
+
+                <!-- Language selector -->
+                <div class="lang-switcher">
+                    <label for="langSelect" class="visually-hidden">Idioma</label>
+                    <select id="langSelect">
+                        <option value="pt">Português</option>
+                        <option value="en">English</option>
+                        <option value="ar">العربية</option>
+                        <option value="fr">Français</option>
+                        <option value="zh">中文</option>
+                        <option value="ru">Русский</option>
+                    </select>
+                </div>
             </div>
         </div>
     </nav>
@@ -27,8 +41,8 @@
     <!-- Hero Section -->
     <section class="hero-page">
         <div class="container">
-            <h1>Prevenção do Câncer de Próstata</h1>
-            <p>Conheça os fatores de risco, as medidas preventivas e a importância dos exames regulares.</p>
+            <h1 data-i18n="prev_hero_title">Prevenção do Câncer de Próstata</h1>
+            <p data-i18n="prev_hero_desc">Conheça os fatores de risco, as medidas preventivas e a importância dos exames regulares.</p>
         </div>
     </section>
 
@@ -37,25 +51,25 @@
         <div class="container">
             <!-- Risk Factors -->
             <div class="section-block">
-                <h2>Fatores de Risco</h2>
-                <p>Conhecer os fatores de risco é fundamental para a prevenção. Alguns fatores podem ser controlados, enquanto outros não.</p>
+                <h2 data-i18n="risk_title">Fatores de Risco</h2>
+                <p data-i18n="risk_intro">Conhecer os fatores de risco é fundamental para a prevenção. Alguns fatores podem ser controlados, enquanto outros não.</p>
                 <div class="risk-factors">
                     <div class="risk-column">
-                        <h3>❌ Fatores Não Controláveis</h3>
+                        <h3 data-i18n="risk_unctrl_title">❌ Fatores Não Controláveis</h3>
                         <ul>
-                            <li><strong>Idade:</strong> Risco aumenta após os 50 anos</li>
-                            <li><strong>Histórico Familiar:</strong> Se pai ou irmão tiveram câncer</li>
-                            <li><strong>Etnia:</strong> Homens negros têm maior risco</li>
-                            <li><strong>Genética:</strong> Mutações genéticas hereditárias</li>
+                            <li><strong data-i18n="risk_age_label">Idade:</strong> <span data-i18n="risk_age_desc">Risco aumenta após os 50 anos</span></li>
+                            <li><strong data-i18n="risk_family_label">Histórico Familiar:</strong> <span data-i18n="risk_family_desc">Se pai ou irmão tiveram câncer</span></li>
+                            <li><strong data-i18n="risk_ethnicity_label">Etnia:</strong> <span data-i18n="risk_ethnicity_desc">Homens negros têm maior risco</span></li>
+                            <li><strong data-i18n="risk_genetics_label">Genética:</strong> <span data-i18n="risk_genetics_desc">Mutações genéticas hereditárias</span></li>
                         </ul>
                     </div>
                     <div class="risk-column">
-                        <h3>✓ Fatores Controláveis</h3>
+                        <h3 data-i18n="risk_ctrl_title">✓ Fatores Controláveis</h3>
                         <ul>
-                            <li><strong>Alimentação:</strong> Dieta rica em gordura aumenta risco</li>
-                            <li><strong>Peso:</strong> Obesidade está associada ao câncer</li>
-                            <li><strong>Tabagismo:</strong> Fumar aumenta o risco</li>
-                            <li><strong>Álcool:</strong> Consumo excessivo é prejudicial</li>
+                            <li><strong data-i18n="risk_diet_label">Alimentação:</strong> <span data-i18n="risk_diet_desc">Dieta rica em gordura aumenta risco</span></li>
+                            <li><strong data-i18n="risk_weight_label">Peso:</strong> <span data-i18n="risk_weight_desc">Obesidade está associada ao câncer</span></li>
+                            <li><strong data-i18n="risk_smoke_label">Tabagismo:</strong> <span data-i18n="risk_smoke_desc">Fumar aumenta o risco</span></li>
+                            <li><strong data-i18n="risk_alcohol_label">Álcool:</strong> <span data-i18n="risk_alcohol_desc">Consumo excessivo é prejudicial</span></li>
                         </ul>
                     </div>
                 </div>
@@ -63,105 +77,127 @@
 
             <!-- Prevention Tips -->
             <div class="section-block">
-                <h2>Dicas de Prevenção</h2>
-                <p>Adotar hábitos saudáveis é a melhor forma de prevenir o câncer de próstata.</p>
+                <h2 data-i18n="tips_title">Dicas de Prevenção</h2>
+                <p data-i18n="tips_intro">Adotar hábitos saudáveis é a melhor forma de prevenir o câncer de próstata.</p>
                 
-                <div class="tips-container">
+                <div class="tips-container" id="tipsContainer">
                     <div class="tip-card">
-                        <h3>🍎 Alimentação Saudável</h3>
-                        <p>Uma dieta equilibrada é essencial para a prevenção:</p>
+                        <h3>🍎 <span data-i18n="tip_diet_title">Alimentação Saudável</span></h3>
+                        <p data-i18n="tip_diet_desc">Uma dieta equilibrada é essencial para a prevenção:</p>
                         <ul>
-                            <li>Aumente o consumo de frutas, vegetais e grãos integrais</li>
-                            <li>Reduza o consumo de carne vermelha e processada</li>
-                            <li>Limite alimentos gordurosos e frituras</li>
-                            <li>Inclua alimentos ricos em licopeno (tomate, melancia)</li>
-                            <li>Consuma alimentos com selênio (castanha-do-pará, atum)</li>
+                            <li data-i18n="tip_diet_1">Aumente o consumo de frutas, vegetais e grãos integrais</li>
+                            <li data-i18n="tip_diet_2">Reduza o consumo de carne vermelha e processada</li>
+                            <li data-i18n="tip_diet_3">Limite alimentos gordurosos e frituras</li>
+                            <li data-i18n="tip_diet_4">Inclua alimentos ricos em licopeno (tomate, melancia)</li>
+                            <li data-i18n="tip_diet_5">Consuma alimentos com selênio (castanha-do-pará, atum)</li>
                         </ul>
                     </div>
 
                     <div class="tip-card">
-                        <h3>💪 Atividade Física Regular</h3>
-                        <p>O exercício regular reduz o risco de câncer:</p>
+                        <h3>💪 <span data-i18n="tip_activity_title">Atividade Física Regular</span></h3>
+                        <p data-i18n="tip_activity_desc">O exercício regular reduz o risco de câncer:</p>
                         <ul>
-                            <li>Pratique pelo menos 150 minutos de atividade moderada por semana</li>
-                            <li>Inclua exercícios de resistência 2 vezes por semana</li>
-                            <li>Escolha atividades que você goste (caminhada, natação, ciclismo)</li>
-                            <li>Mantenha um peso corporal saudável</li>
-                            <li>Evite o sedentarismo</li>
+                            <li data-i18n="tip_activity_1">Pratique pelo menos 150 minutos de atividade moderada por semana</li>
+                            <li data-i18n="tip_activity_2">Inclua exercícios de resistência 2 vezes por semana</li>
+                            <li data-i18n="tip_activity_3">Escolha atividades que você goste (caminhada, natação, ciclismo)</li>
+                            <li data-i18n="tip_activity_4">Mantenha um peso corporal saudável</li>
+                            <li data-i18n="tip_activity_5">Evite o sedentarismo</li>
                         </ul>
                     </div>
 
                     <div class="tip-card">
-                        <h3>⚠️ Evite Hábitos Prejudiciais</h3>
-                        <p>Alguns hábitos aumentam significativamente o risco:</p>
+                        <h3>⚠️ <span data-i18n="tip_avoid_title">Evite Hábitos Prejudiciais</span></h3>
+                        <p data-i18n="tip_avoid_desc">Alguns hábitos aumentam significativamente o risco:</p>
                         <ul>
-                            <li>Não fume e evite fumo passivo</li>
-                            <li>Limite o consumo de bebidas alcoólicas</li>
-                            <li>Evite alimentos ultraprocessados</li>
-                            <li>Reduza o estresse através de técnicas de relaxamento</li>
-                            <li>Durma bem (7-9 horas por noite)</li>
+                            <li data-i18n="tip_avoid_1">Não fume e evite fumo passivo</li>
+                            <li data-i18n="tip_avoid_2">Limite o consumo de bebidas alcoólicas</li>
+                            <li data-i18n="tip_avoid_3">Evite alimentos ultraprocessados</li>
+                            <li data-i18n="tip_avoid_4">Reduza o estresse através de técnicas de relaxamento</li>
+                            <li data-i18n="tip_avoid_5">Durma bem (7-9 horas por noite)</li>
                         </ul>
                     </div>
 
                     <div class="tip-card">
-                        <h3>⏰ Exames Regulares</h3>
-                        <p>O diagnóstico precoce é fundamental:</p>
+                        <h3>⏰ <span data-i18n="tip_exams_title">Exames Regulares</span></h3>
+                        <p data-i18n="tip_exams_desc">O diagnóstico precoce é fundamental:</p>
                         <ul>
-                            <li>Homens com 50 anos: consulte um urologista para avaliar risco</li>
-                            <li>Homens com histórico familiar: comece aos 40 anos</li>
-                            <li>Homens negros: comece aos 40 anos (maior risco)</li>
-                            <li>Exames: PSA (sangue) e toque retal</li>
-                            <li>Frequência: anual ou conforme orientação médica</li>
+                            <li data-i18n="tip_exams_1">Homens com 50 anos: consulte um urologista para avaliar risco</li>
+                            <li data-i18n="tip_exams_2">Homens com histórico familiar: comece aos 40 anos</li>
+                            <li data-i18n="tip_exams_3">Homens negros: comece aos 40 anos (maior risco)</li>
+                            <li data-i18n="tip_exams_4">Exames: PSA (sangue) e toque retal</li>
+                            <li data-i18n="tip_exams_5">Frequência: anual ou conforme orientação médica</li>
                         </ul>
+                    </div>
+                </div>
+
+                <!-- WhatsApp actions -->
+                <div class="tip-actions">
+                    <div class="tip-send">
+                        <h3 data-i18n="wa_send_title">Receber dicas pelo WhatsApp</h3>
+                        <p data-i18n="wa_send_desc">Informe seu número com código do país (ex: +55DDDNUM) e envie as dicas.</p>
+                        <div class="wa-form">
+                            <input type="tel" id="userWhatsapp" placeholder="+55XXXXXXXXXX" />
+                            <button class="btn btn-primary" id="sendTipsBtn" data-i18n="wa_send_btn">Enviar dicas para meu WhatsApp</button>
+                        </div>
+                        <small data-i18n="wa_privacy_note">Usamos apenas o link oficial do WhatsApp para abrir a conversa no seu aparelho.</small>
+                    </div>
+
+                    <div class="tip-contact">
+                        <h3 data-i18n="wa_contact_title">Falar com especialista via WhatsApp</h3>
+                        <p data-i18n="wa_contact_desc">Mensagem pré-pronta com suas dicas e espaço para escrever livremente.</p>
+                        <div class="wa-form">
+                            <textarea id="customMessage" rows="4" placeholder="Escreva sua pergunta..."></textarea>
+                            <button class="btn btn-secondary" id="contactExpertBtn" data-i18n="wa_contact_btn">Enviar mensagem ao especialista</button>
+                        </div>
                     </div>
                 </div>
             </div>
 
             <!-- When to See a Doctor -->
             <div class="section-block">
-                <h2>Quando Procurar um Médico?</h2>
-                <p>Procure um urologista se você apresentar algum destes sintomas:</p>
+                <h2 data-i18n="doctor_title">Quando Procurar um Médico?</h2>
+                <p data-i18n="doctor_intro">Procure um urologista se você apresentar algum destes sintomas:</p>
                 <div class="symptoms-grid">
-                    <div class="symptom">🚽 Dificuldade em urinar ou fluxo fraco</div>
-                    <div class="symptom">🌙 Necessidade frequente de urinar, especialmente à noite</div>
-                    <div class="symptom">🔥 Dor ou queimação ao urinar</div>
-                    <div class="symptom">🩸 Sangue na urina ou no sêmen</div>
-                    <div class="symptom">💙 Dor nas costas, quadril ou pelve</div>
-                    <div class="symptom">⚡ Disfunção erétil</div>
+                    <div class="symptom" data-i18n="symptom_1">🚽 Dificuldade em urinar ou fluxo fraco</div>
+                    <div class="symptom" data-i18n="symptom_2">🌙 Necessidade frequente de urinar, especialmente à noite</div>
+                    <div class="symptom" data-i18n="symptom_3">🔥 Dor ou queimação ao urinar</div>
+                    <div class="symptom" data-i18n="symptom_4">🩸 Sangue na urina ou no sêmen</div>
+                    <div class="symptom" data-i18n="symptom_5">💙 Dor nas costas, quadril ou pelve</div>
+                    <div class="symptom" data-i18n="symptom_6">⚡ Disfunção erétil</div>
                 </div>
-                <p class="warning"><strong>Lembre-se:</strong> esses sintomas podem ter outras causas, mas é importante consultar um médico para avaliação.</p>
+                <p class="warning" data-i18n="doctor_note"><strong>Lembre-se:</strong> esses sintomas podem ter outras causas, mas é importante consultar um médico para avaliação.</p>
             </div>
 
             <!-- CTA -->
             <div class="cta-block">
-                <h2>Cuide-se Hoje, Viva Melhor Amanhã</h2>
-                <p>A prevenção é o melhor caminho. Consulte um médico regularmente e adote hábitos saudáveis.</p>
+                <h2 data-i18n="prev_cta_title">Cuide-se Hoje, Viva Melhor Amanhã</h2>
+                <p data-i18n="prev_cta_desc">A prevenção é o melhor caminho. Consulte um médico regularmente e adote hábitos saudáveis.</p>
                 <div class="button-group">
-                    <a href="sobre.html" class="btn btn-primary">Saiba Mais Sobre Novembro Azul</a>
-                    <a href="index.html" class="btn btn-secondary">Voltar ao Início</a>
+                    <a href="sobre.html" class="btn btn-primary" data-i18n="btn_about_novembro">Saiba Mais Sobre Novembro Azul</a>
+                    <a href="index.html" class="btn btn-secondary" data-i18n="btn_back_home">Voltar ao Início</a>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Footer -->
+    <!-- Footer (same as index, with data-i18n) -->
     <footer class="footer">
         <div class="container">
             <div class="footer-grid">
                 <div class="footer-col">
-                    <h4>💙 Novembro Azul</h4>
-                    <p>Conscientização sobre a saúde do homem e prevenção do câncer de próstata.</p>
+                    <h4>💙 <span data-i18n="footer_brand">Novembro Azul</span></h4>
+                    <p data-i18n="footer_desc">Conscientização sobre a saúde do homem e prevenção do câncer de próstata.</p>
                 </div>
                 <div class="footer-col">
-                    <h4>Navegação</h4>
+                    <h4 data-i18n="footer_nav">Navegação</h4>
                     <ul>
-                        <li><a href="index.html">Início</a></li>
-                        <li><a href="sobre.html">Sobre</a></li>
-                        <li><a href="prevencao.html">Prevenção</a></li>
+                        <li><a href="index.html" data-i18n="nav_home">Início</a></li>
+                        <li><a href="sobre.html" data-i18n="nav_about">Sobre</a></li>
+                        <li><a href="prevencao.html" data-i18n="nav_prevention">Prevenção</a></li>
                     </ul>
                 </div>
                 <div class="footer-col">
-                    <h4>Recursos</h4>
+                    <h4 data-i18n="footer_resources">Recursos</h4>
                     <ul>
                         <li><a href="https://www.gov.br/saude" target="_blank">Ministério da Saúde</a></li>
                         <li><a href="https://www.inca.gov.br" target="_blank">INCA</a></li>
@@ -170,7 +206,7 @@
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2025 Novembro Azul - Conscientização sobre Saúde Masculina. Todos os direitos reservados.</p>
+                <p>&copy; 2025 <span data-i18n="footer_brand">Novembro Azul</span> - <span data-i18n="footer_bottom">Conscientização sobre Saúde Masculina. Todos os direitos reservados.</span></p>
             </div>
         </div>
     </footer>
