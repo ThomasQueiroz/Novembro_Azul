@@ -938,7 +938,317 @@ const I18N = {
     prev_cta_desc: 'Профилактика — лучший путь. Регулярно посещайте врача и ведите здоровый образ жизни.',
     btn_about_novembro: 'Узнать о Голубом Ноябре',
     btn_back_home: 'На главную'
-  }
+  },
+  // ---- Español ----
+  es:  {
+  title_home: 'Noviembre Azul - Concienciación y Prevención',
+  title_about: 'Acerca de - Noviembre Azul',
+  title_prev: 'Prevención - Noviembre Azul',
+  brand: 'Noviembre Azul',
+  nav_home: 'Inicio',
+  nav_about: 'Acerca de',
+  nav_prevention: 'Prevención',
+  hero_title: 'Noviembre <span class="blue">Azul</span>',
+  hero_desc: 'Un movimiento mundial dedicado a la salud del hombre y la prevención del cáncer de próstata. Cuidarse es un acto de valentía.',
+  btn_learn_more: 'Saber más',
+  btn_know_campaign: 'Conocer la campaña',
+  stat_1_value: '1 de cada 9',
+  stat_1_label: 'Hombres desarrollan cáncer de próstata',
+  stat_2_value: '95%',
+  stat_2_label: 'Tasa de supervivencia con diagnóstico precoz',
+  stat_3_value: '50+',
+  stat_3_label: 'Edad recomendada para empezar la prevención',
+  features_title: 'Por qué Noviembre Azul es importante',
+  feature_prev_title: 'Prevención',
+  feature_prev_desc: 'Conocer los factores de riesgo y adoptar hábitos saludables es esencial para prevenir el cáncer de próstata.',
+  feature_dx_title: 'Diagnóstico precoz',
+  feature_dx_desc: 'Detectar la enfermedad en etapas iniciales aumenta significativamente las posibilidades de cura.',
+  feature_awareness_title: 'Concienciación',
+  feature_awareness_desc: 'Promover el diálogo y romper tabúes sobre la salud masculina salva vidas.',
+  feature_qol_title: 'Calidad de vida',
+  feature_qol_desc: 'Cuidar la salud integral del hombre mejora la calidad de vida.',
+  cta_title: 'Cuídate. Prevén. Vive mejor.',
+  cta_desc: 'No esperes a que aparezcan síntomas. Consulta al médico regularmente y conoce los factores de riesgo.',
+  cta_btn: 'Consejos de prevención',
+  footer_brand: 'Noviembre Azul',
+  footer_desc: 'Concienciación sobre la salud del hombre y prevención del cáncer de próstata.',
+  footer_nav: 'Navegación',
+  footer_resources: 'Recursos',
+  footer_bottom: 'Concienciación sobre la salud masculina. Todos los derechos reservados.',
+
+  about_hero_title: '¿Qué es Noviembre Azul?',
+  about_hero_desc: 'Una campaña global sobre la salud masculina y la importancia de la prevención del cáncer de próstata.',
+  about_history_title: 'Historia y Origen',
+  about_history_p1: 'Noviembre Azul comenzó en Australia en 2003 como una forma de concienciar sobre la salud masculina. La campaña se expandió a muchos países, llegando a Brasil en 2011.',
+  about_history_p2: 'El color azul fue elegido como símbolo y noviembre se dedica especialmente a la concienciación sobre el cáncer de próstata.',
+  about_objectives_title: 'Objetivos de la Campaña',
+  obj_awareness_title: 'Concienciación',
+  obj_awareness_desc: 'Informar a los hombres sobre la importancia de la prevención y el diagnóstico precoz del cáncer de próstata.',
+  obj_dialog_title: 'Diálogo Abierto',
+  obj_dialog_desc: 'Romper tabúes y promover conversaciones sobre salud masculina entre amigos, familia y profesionales.',
+  obj_global_title: 'Movilización Global',
+  obj_global_desc: 'Unir personas en todo el mundo en torno a la salud y el bienestar del hombre.',
+  obj_qol_title: 'Calidad de Vida',
+  obj_qol_desc: 'Promover hábitos saludables y cuidados integrales físicos y mentales.',
+  about_why_title: 'Por qué es importante',
+  about_why_1_title: 'Prevalencia de la enfermedad',
+  about_why_1_desc: 'El cáncer de próstata es el segundo más común en hombres en Brasil. Aproximadamente 1 de cada 9 hombres lo desarrollará.',
+  about_why_2_title: 'El diagnóstico precoz salva vidas',
+  about_why_2_desc: 'Detectado en etapas iniciales, la tasa de supervivencia a 5 años es de aproximadamente 95%. El diagnóstico precoz es clave.',
+  about_why_3_title: 'Salud integral del hombre',
+  about_why_3_desc: 'La campaña va más allá del cáncer de próstata, abordando la salud integral (física, mental y emocional).',
+  about_why_4_title: 'Romper tabúes',
+  about_why_4_desc: 'Muchos hombres evitan hablar de salud o buscar ayuda médica. La campaña normaliza estas conversaciones.',
+  about_stats_title: 'Datos importantes',
+  about_stats_1_value: '65.000+',
+  about_stats_1_desc: 'Nuevos casos de cáncer de próstata anuales en Brasil',
+  about_stats_2_value: '15.000+',
+  about_stats_2_desc: 'Muertes por cáncer de próstata por año en Brasil',
+  about_stats_3_value: '50+',
+  about_stats_3_desc: 'Edad recomendada para iniciar evaluación de riesgo con el médico',
+  about_stats_4_value: '95%',
+  about_stats_4_desc: 'Supervivencia a 5 años con diagnóstico precoz',
+  about_cta_title: 'Puedes marcar la diferencia',
+  about_cta_desc: 'Comparte este mensaje con amigos y familiares. La concienciación es el primer paso.',
+  btn_back_home: 'Volver al inicio',
+
+  prev_hero_title: 'Prevención del cáncer de próstata',
+  prev_hero_desc: 'Conoce los factores de riesgo, medidas preventivas y la importancia de los exámenes regulares.',
+  risk_title: 'Factores de riesgo',
+  risk_intro: 'Conocerlos es fundamental. Algunos se pueden controlar, otros no.',
+  risk_unctrl_title: '❌ Factores no controlables',
+  risk_ctrl_title: '✓ Factores controlables',
+  risk_age_label: 'Edad:',
+  risk_age_desc: 'El riesgo aumenta después de los 50 años',
+  risk_family_label: 'Historial familiar:',
+  risk_family_desc: 'Padre o hermano con cáncer',
+  risk_ethnicity_label: 'Etnia:',
+  risk_ethnicity_desc: 'Los hombres negros tienen mayor riesgo',
+  risk_genetics_label: 'Genética:',
+  risk_genetics_desc: 'Mutaciones genéticas hereditarias',
+  risk_diet_label: 'Alimentación:',
+  risk_diet_desc: 'Una dieta rica en grasas aumenta el riesgo',
+  risk_weight_label: 'Peso:',
+  risk_weight_desc: 'La obesidad está asociada al cáncer',
+  risk_smoke_label: 'Tabaco:',
+  risk_smoke_desc: 'Fumar aumenta el riesgo',
+  risk_alcohol_label: 'Alcohol:',
+  risk_alcohol_desc: 'El consumo excesivo es perjudicial',
+
+  tips_title: 'Consejos de prevención',
+  tips_intro: 'Adoptar hábitos saludables es la mejor forma de prevenir el cáncer de próstata.',
+  tip_diet_title: 'Alimentación saludable',
+  tip_diet_desc: 'Una dieta equilibrada es esencial:',
+  tip_diet_1: 'Aumenta frutas, verduras y cereales integrales',
+  tip_diet_2: 'Reduce carne roja y procesada',
+  tip_diet_3: 'Limita alimentos grasos y frituras',
+  tip_diet_4: 'Incluye alimentos ricos en licopeno (tomate, sandía)',
+  tip_diet_5: 'Consume alimentos con selenio (nuez de Brasil, atún)',
+
+  tip_activity_title: 'Actividad física regular',
+  tip_activity_desc: 'El ejercicio regular reduce el riesgo:',
+  tip_activity_1: 'Al menos 150 minutos de actividad moderada por semana',
+  tip_activity_2: 'Incluye ejercicios de resistencia 2 veces por semana',
+  tip_activity_3: 'Elige actividades que disfrutes (caminar, nadar, ciclismo)',
+  tip_activity_4: 'Mantén un peso saludable',
+  tip_activity_5: 'Evita el sedentarismo',
+
+  tip_avoid_title: 'Evita hábitos perjudiciales',
+  tip_avoid_desc: 'Algunos aumentan significativamente el riesgo:',
+  tip_avoid_1: 'No fumes y evita el humo pasivo',
+  tip_avoid_2: 'Limita el consumo de alcohol',
+  tip_avoid_3: 'Evita alimentos ultraprocesados',
+  tip_avoid_4: 'Reduce el estrés con técnicas de relajación',
+  tip_avoid_5: 'Duerme bien (7-9 horas por noche)',
+
+  tip_exams_title: 'Exámenes regulares',
+  tip_exams_desc: 'El diagnóstico precoz es fundamental:',
+  tip_exams_1: 'Hombres de 50 años: consulta al urólogo para evaluar el riesgo',
+  tip_exams_2: 'Historial familiar: empieza a los 40 años',
+  tip_exams_3: 'Hombres negros: empieza a los 40 (mayor riesgo)',
+  tip_exams_4: 'Exámenes: PSA (sangre) y tacto rectal',
+  tip_exams_5: 'Frecuencia: anual o según orientación médica',
+
+  wa_send_title: 'Recibir consejos por WhatsApp',
+  wa_send_desc: 'Introduce tu número con código de país (ej: +55DDDNUM) y envía los consejos.',
+  wa_send_btn: 'Enviar consejos a mi WhatsApp',
+  wa_privacy_note: 'Usamos solo el enlace oficial de WhatsApp para abrir la conversación en tu dispositivo.',
+
+  wa_contact_title: 'Hablar con un especialista por WhatsApp',
+  wa_contact_desc: 'Mensaje predefinido con tus consejos y espacio para escribir libremente.',
+  wa_contact_btn: 'Enviar mensaje al especialista',
+  wa_contact_note: 'Configura el número del especialista en scripts.js.',
+
+  doctor_title: '¿Cuándo acudir al médico?',
+  doctor_intro: 'Consulta a un urólogo si presentas alguno de estos síntomas:',
+  symptom_1: '🚽 Dificultad para orinar o flujo débil',
+  symptom_2: '🌙 Micción frecuente, especialmente por la noche',
+  symptom_3: '🔥 Dolor o ardor al orinar',
+  symptom_4: '🩸 Sangre en la orina o en el semen',
+  symptom_5: '💙 Dolor en la espalda, cadera o pelvis',
+  symptom_6: '⚡ Disfunción eréctil',
+  doctor_note: '<strong>Recuerda:</strong> estos síntomas pueden tener otras causas, pero es importante consultar al médico.',
+
+  prev_cta_title: 'Cuídate hoy, vive mejor mañana',
+  prev_cta_desc: 'La prevención es el mejor camino. Consulta al médico regularmente y adopta hábitos saludables.',
+  btn_about_novembro: 'Saber más sobre Noviembre Azul',
+  btn_back_home: 'Volver al inicio'
+},
+// ---- Deutsch ----
+  de: {
+  title_home: 'Blauer November – Bewusstsein und Prävention',
+  title_about: 'Über – Blauer November',
+  title_prev: 'Prävention – Blauer November',
+  brand: 'Blauer November',
+  nav_home: 'Startseite',
+  nav_about: 'Über',
+  nav_prevention: 'Prävention',
+  hero_title: 'Blauer <span class="blue">November</span>',
+  hero_desc: 'Eine weltweite Bewegung zur Sensibilisierung für Männergesundheit und zur Prävention von Prostatakrebs. Sich um sich selbst zu kümmern ist mutig.',
+  btn_learn_more: 'Mehr erfahren',
+  btn_know_campaign: 'Kampagne kennenlernen',
+  stat_1_value: '1 von 9',
+  stat_1_label: 'Männer entwickeln Prostatakrebs',
+  stat_2_value: '95%',
+  stat_2_label: 'Überlebensrate bei Früherkennung',
+  stat_3_value: '50+',
+  stat_3_label: 'Empfohlenes Alter für Prävention',
+  features_title: 'Warum Blauer November wichtig ist',
+  feature_prev_title: 'Prävention',
+  feature_prev_desc: 'Risikofaktoren kennen und gesunde Gewohnheiten annehmen ist entscheidend, um Prostatakrebs vorzubeugen.',
+  feature_dx_title: 'Früherkennung',
+  feature_dx_desc: 'Frühe Diagnose erhöht die Heilungschancen erheblich.',
+  feature_awareness_title: 'Bewusstsein',
+  feature_awareness_desc: 'Dialog fördern und Tabus rund um Männergesundheit brechen rettet Leben.',
+  feature_qol_title: 'Lebensqualität',
+  feature_qol_desc: 'Ganzheitliche Männergesundheit verbessert die Lebensqualität.',
+  cta_title: 'Kümmere dich. Vorbeugen. Besser leben.',
+  cta_desc: 'Warte nicht auf Symptome. Gehe regelmäßig zum Arzt und kenne die Risikofaktoren.',
+  cta_btn: 'Präventionstipps',
+  footer_brand: 'Blauer November',
+  footer_desc: 'Sensibilisierung für Männergesundheit und Prävention von Prostatakrebs.',
+  footer_nav: 'Navigation',
+  footer_resources: 'Ressourcen',
+  footer_bottom: 'Aufklärung über Männergesundheit. Alle Rechte vorbehalten.',
+
+  about_hero_title: 'Was ist Blauer November?',
+  about_hero_desc: 'Eine globale Kampagne über Männergesundheit und die Bedeutung der Prävention von Prostatakrebs.',
+  about_history_title: 'Geschichte und Ursprung',
+  about_history_p1: 'Blauer November begann 2003 in Australien, um das Bewusstsein für Männergesundheit zu stärken, und verbreitete sich weltweit – in Brasilien seit 2011.',
+  about_history_p2: 'Blau ist das Symbol der Kampagne, und der November ist der Aufklärung über Prostatakrebs gewidmet.',
+  about_objectives_title: 'Ziele der Kampagne',
+  obj_awareness_title: 'Bewusstsein',
+  obj_awareness_desc: 'Männer über Prävention und frühe Diagnose von Prostatakrebs informieren.',
+  obj_dialog_title: 'Offener Dialog',
+  obj_dialog_desc: 'Tabus brechen und Gespräche über Männergesundheit fördern.',
+  obj_global_title: 'Globale Mobilisierung',
+  obj_global_desc: 'Menschen weltweit für die Gesundheit und das Wohlbefinden von Männern vereinen.',
+  obj_qol_title: 'Lebensqualität',
+  obj_qol_desc: 'Gesunde Gewohnheiten und umfassende körperliche und mentale Fürsorge fördern.',
+  about_why_title: 'Warum es wichtig ist',
+  about_why_1_title: 'Krankheitshäufigkeit',
+  about_why_1_desc: 'Prostatakrebs ist der zweithäufigste Krebs bei Männern in Brasilien. Etwa 1 von 9 Männern erkrankt daran.',
+  about_why_2_title: 'Früherkennung rettet Leben',
+  about_why_2_desc: 'Bei früher Entdeckung beträgt die 5-Jahres-Überlebensrate etwa 95%. Früherkennung ist entscheidend.',
+  about_why_3_title: 'Ganzheitliche Männergesundheit',
+  about_why_3_desc: 'Die Kampagne geht über Prostatakrebs hinaus und adressiert die Gesundheit des Mannes insgesamt.',
+  about_why_4_title: 'Tabus abbauen',
+  about_why_4_desc: 'Viele Männer vermeiden Gesundheitsgespräche oder Arztbesuche. Die Kampagne normalisiert diese Gespräche.',
+  about_stats_title: 'Wichtige Daten',
+  about_stats_1_value: '65.000+',
+  about_stats_1_desc: 'Neue Fälle pro Jahr in Brasilien',
+  about_stats_2_value: '15.000+',
+  about_stats_2_desc: 'Todesfälle pro Jahr in Brasilien',
+  about_stats_3_value: '50+',
+  about_stats_3_desc: 'Empfohlenes Alter zur Risikobewertung',
+  about_stats_4_value: '95%',
+  about_stats_4_desc: '5-Jahres-Überlebensrate bei Früherkennung',
+  about_cta_title: 'Du kannst den Unterschied machen',
+  about_cta_desc: 'Teile diese Botschaft mit Freunden und Familie. Bewusstsein ist der erste Schritt.',
+  btn_back_home: 'Zur Startseite',
+
+  prev_hero_title: 'Vorbeugung von Prostatakrebs',
+  prev_hero_desc: 'Kenne Risikofaktoren, Präventionsmaßnahmen und die Bedeutung regelmäßiger Untersuchungen.',
+  risk_title: 'Risikofaktoren',
+  risk_intro: 'Sie zu kennen ist wesentlich. Manche sind kontrollierbar, andere nicht.',
+  risk_unctrl_title: '❌ Nicht kontrollierbare Faktoren',
+  risk_ctrl_title: '✓ Kontrollierbare Faktoren',
+  risk_age_label: 'Alter:',
+  risk_age_desc: 'Das Risiko steigt nach dem 50. Lebensjahr',
+  risk_family_label: 'Familienanamnese:',
+  risk_family_desc: 'Vater oder Bruder mit Krebs',
+  risk_ethnicity_label: 'Ethnizität:',
+  risk_ethnicity_desc: 'Schwarze Männer haben ein höheres Risiko',
+  risk_genetics_label: 'Genetik:',
+  risk_genetics_desc: 'Erbliche Genmutationen',
+  risk_diet_label: 'Ernährung:',
+  risk_diet_desc: 'Fettreiche Ernährung erhöht das Risiko',
+  risk_weight_label: 'Gewicht:',
+  risk_weight_desc: 'Adipositas ist mit Krebs assoziiert',
+  risk_smoke_label: 'Rauchen:',
+  risk_smoke_desc: 'Rauchen erhöht das Risiko',
+  risk_alcohol_label: 'Alkohol:',
+  risk_alcohol_desc: 'Übermäßiger Konsum ist schädlich',
+
+  tips_title: 'Präventionstipps',
+  tips_intro: 'Gesunde Gewohnheiten sind der beste Weg, Prostatakrebs vorzubeugen.',
+  tip_diet_title: 'Gesunde Ernährung',
+  tip_diet_desc: 'Eine ausgewogene Ernährung ist essenziell:',
+  tip_diet_1: 'Mehr Obst, Gemüse und Vollkorn',
+  tip_diet_2: 'Weniger rotes und verarbeitetes Fleisch',
+  tip_diet_3: 'Fettige und frittierte Speisen begrenzen',
+  tip_diet_4: 'Lycopinreiche Lebensmittel einbeziehen (Tomate, Wassermelone)',
+  tip_diet_5: 'Selenquellen konsumieren (Paranuss, Thunfisch)',
+
+  tip_activity_title: 'Regelmäßige körperliche Aktivität',
+  tip_activity_desc: 'Regelmäßige Bewegung senkt das Risiko:',
+  tip_activity_1: 'Mindestens 150 Minuten moderate Aktivität pro Woche',
+  tip_activity_2: 'Zweimal pro Woche Krafttraining hinzufügen',
+  tip_activity_3: 'Aktivitäten wählen, die Freude machen (Gehen, Schwimmen, Radfahren)',
+  tip_activity_4: 'Gesundes Körpergewicht halten',
+  tip_activity_5: 'Sitzendes Verhalten vermeiden',
+
+  tip_avoid_title: 'Schädliche Gewohnheiten vermeiden',
+  tip_avoid_desc: 'Einige erhöhen das Risiko deutlich:',
+  tip_avoid_1: 'Nicht rauchen und Passivrauchen vermeiden',
+  tip_avoid_2: 'Alkoholkonsum begrenzen',
+  tip_avoid_3: 'Hochverarbeitete Lebensmittel vermeiden',
+  tip_avoid_4: 'Stress mit Entspannungstechniken reduzieren',
+  tip_avoid_5: 'Gut schlafen (7–9 Stunden pro Nacht)',
+
+  tip_exams_title: 'Regelmäßige Untersuchungen',
+  tip_exams_desc: 'Früherkennung ist grundlegend:',
+  tip_exams_1: 'Männer ab 50: Urologe zur Risikobewertung aufsuchen',
+  tip_exams_2: 'Mit Familienanamnese: ab 40 beginnen',
+  tip_exams_3: 'Schwarze Männer: ab 40 beginnen (höheres Risiko)',
+  tip_exams_4: 'Untersuchungen: PSA (Blut) und digitale rektale Untersuchung',
+  tip_exams_5: 'Häufigkeit: jährlich oder gemäß ärztlicher Empfehlung',
+
+  wa_send_title: 'Tipps per WhatsApp erhalten',
+  wa_send_desc: 'Gib deine Nummer mit Ländervorwahl an (z. B. +55DDDNUM) und sende die Tipps.',
+  wa_send_btn: 'Tipps an mein WhatsApp senden',
+  wa_privacy_note: 'Wir nutzen nur den offiziellen WhatsApp-Link, um den Chat auf deinem Gerät zu öffnen.',
+
+  wa_contact_title: 'Mit Spezialist via WhatsApp sprechen',
+  wa_contact_desc: 'Vorgefertigte Nachricht mit deinen Tipps und Platz für freie Texteingabe.',
+  wa_contact_btn: 'Nachricht an den Spezialisten senden',
+  wa_contact_note: 'Die Nummer des Spezialisten in scripts.js konfigurieren.',
+
+  doctor_title: 'Wann zum Arzt?',
+  doctor_intro: 'Konsultiere einen Urologen bei folgenden Symptomen:',
+  symptom_1: '🚽 Schwierigkeiten beim Wasserlassen oder schwacher Harnfluss',
+  symptom_2: '🌙 Häufiges Wasserlassen, besonders nachts',
+  symptom_3: '🔥 Schmerzen oder Brennen beim Wasserlassen',
+  symptom_4: '🩸 Blut im Urin oder Sperma',
+  symptom_5: '💙 Schmerzen im Rücken, in der Hüfte oder im Becken',
+  symptom_6: '⚡ Erektile Dysfunktion',
+  doctor_note: '<strong>Hinweis:</strong> Diese Symptome können andere Ursachen haben. Eine ärztliche Abklärung ist wichtig.',
+
+  prev_cta_title: 'Heute vorsorgen, morgen besser leben',
+  prev_cta_desc: 'Prävention ist der beste Weg. Gehe regelmäßig zum Arzt und pflege gesunde Gewohnheiten.',
+  btn_about_novembro: 'Mehr über Blauer November erfahren',
+  btn_back_home: 'Zur Startseite'
+}
 };
 
 // ====== Helpers ======
@@ -1061,3 +1371,70 @@ document.addEventListener('DOMContentLoaded', () => {
   initLang();
   initWhatsAppActions();
 });
+// Mapeia idioma -> flag e label para o seletor customizado
+const LANG_UI = {
+  pt: { label: 'Português', flag: 'https://flagcdn.com/w20/br.png', alt: 'Brasil' },
+  en: { label: 'English',  flag: 'https://flagcdn.com/w20/us.png', alt: 'United States' },
+  es: { label: 'Español',  flag: 'https://flagcdn.com/w20/es.png', alt: 'España' },
+  de: { label: 'Deutsch',  flag: 'https://flagcdn.com/w20/de.png', alt: 'Deutschland' },
+  ar: { label: 'العربية',  flag: 'https://flagcdn.com/w20/sa.png', alt: 'السعودية' },
+  fr: { label: 'Français', flag: 'https://flagcdn.com/w20/fr.png', alt: 'France' },
+  zh: { label: '中文',      flag: 'https://flagcdn.com/w20/cn.png', alt: '中国' },
+  ru: { label: 'Русский',  flag: 'https://flagcdn.com/w20/ru.png', alt: 'Россия' }
+};
+
+function updateCustomSelectUI(lang) {
+  const cfg = LANG_UI[lang] || LANG_UI[DEFAULT_LANG];
+  const sel = document.querySelector('#langSelectCustom .selected');
+  if (!sel) return;
+  sel.innerHTML = `
+    <img src="${cfg.flag}" alt="${cfg.alt}" />
+    <span>${cfg.label}</span>
+    <span class="arrow">▾</span>
+  `;
+}
+
+function initLang() {
+  // Carrega idioma salvo
+  const saved = (() => { try { return localStorage.getItem('lang'); } catch (e) { return null; } })();
+  const initial = saved || DEFAULT_LANG;
+  setLang(initial);           // aplica traduções
+  updateCustomSelectUI(initial); // atualiza bandeira/label
+
+  // Wire do seletor customizado
+  const root = document.getElementById('langSelectCustom');
+  if (!root) return;
+
+  const selected = root.querySelector('.selected');
+  const options = root.querySelector('.options');
+
+  // Abrir/fechar
+  selected.addEventListener('click', () => {
+    const expanded = root.getAttribute('aria-expanded') === 'true';
+    root.setAttribute('aria-expanded', expanded ? 'false' : 'true');
+  });
+
+  // Seleção
+  options.querySelectorAll('button[data-lang]').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const lang = btn.getAttribute('data-lang');
+      setLang(lang);
+      updateCustomSelectUI(lang);
+      root.setAttribute('aria-expanded', 'false');
+    });
+  });
+
+  // Clique fora para fechar
+  document.addEventListener('click', (e) => {
+    if (!root.contains(e.target)) {
+      root.setAttribute('aria-expanded', 'false');
+    }
+  });
+
+  // Tecla Esc para fechar
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') {
+      root.setAttribute('aria-expanded', 'false');
+    }
+  });
+}

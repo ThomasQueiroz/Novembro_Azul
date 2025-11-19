@@ -21,20 +21,48 @@
                     <li><a href="sobre.html" data-i18n="nav_about">Sobre</a></li>
                     <li><a href="prevencao.html" data-i18n="nav_prevention">Prevenção</a></li>
                 </ul>
-
-                <!-- Language selector -->
                 <div class="lang-switcher">
-                    <label for="langSelect" class="visually-hidden">Idioma</label>
-                    <select id="langSelect">
-                        <option value="pt">Português</option>
-                        <option value="en">English</option>
-                        <option value="ar">العربية</option>
-                        <option value="fr">Français</option>
-                        <option value="zh">中文</option>
-                        <option value="ru">Русский</option>
-                    </select>
-                </div>
+        <div class="custom-select" id="langSelectCustom" aria-haspopup="listbox" aria-expanded="false">
+            <button type="button" class="selected" aria-label="Selecionar idioma">
+            <img src="https://flagcdn.com/w20/br.png" alt="Brasil" />
+            <span>Português</span>
+            <span class="arrow">▾</span>
+            </button>
+            <div class="options" role="listbox">
+            <button type="button" role="option" data-lang="pt">
+                <img src="https://flagcdn.com/w20/br.png" alt="Brasil" />
+                <span>Português</span>
+            </button>
+            <button type="button" role="option" data-lang="en">
+                <img src="https://flagcdn.com/w20/us.png" alt="United States" />
+                <span>English</span>
+            </button>
+            <button type="button" role="option" data-lang="es">
+                <img src="https://flagcdn.com/w20/es.png" alt="España" />
+                <span>Español</span>
+            </button>
+            <button type="button" role="option" data-lang="de">
+                <img src="https://flagcdn.com/w20/de.png" alt="Deutschland" />
+                <span>Deutsch</span>
+            </button>
+            <button type="button" role="option" data-lang="ar">
+                <img src="https://flagcdn.com/w20/sa.png" alt="السعودية" />
+                <span>العربية</span>
+            </button>
+            <button type="button" role="option" data-lang="fr">
+                <img src="https://flagcdn.com/w20/fr.png" alt="France" />
+                <span>Français</span>
+            </button>
+            <button type="button" role="option" data-lang="zh">
+                <img src="https://flagcdn.com/w20/cn.png" alt="中国" />
+                <span>中文</span>
+            </button>
+            <button type="button" role="option" data-lang="ru">
+                <img src="https://flagcdn.com/w20/ru.png" alt="Россия" />
+                <span>Русский</span>
+            </button>
             </div>
+        </div>
         </div>
     </nav>
 
